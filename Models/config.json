@@ -1,0 +1,30 @@
+{  
+	"rnet":{  
+		"train":{  
+			"share_context_LSTM":true,
+			"char_emb":false,
+			"in_keep_prob":0.8,
+			"batch_size":60,
+			"state_size":75,
+			"emb_dim" : 300,
+			"word_emb_dim" : 300,
+			"char_max_length" : 37,
+			"p_length":300,
+			"q_length":30,
+			"a_length":4
+		},
+		"dev":{  
+			"share_context_LSTM":true,
+			"char_emb":false,
+			"in_keep_prob":1.0,
+			"batch_size":50,
+			"state_size":75,
+			"emb_dim":300,
+			"word_emb_dim" : 300,
+			"char_max_length" : 37,
+			"p_length":300,
+			"q_length":30,
+			"a_length":4
+		}
+	}
+}
